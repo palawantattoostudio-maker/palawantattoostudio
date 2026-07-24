@@ -25,7 +25,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="md:col-span-1">
             <div className="flex items-center gap-3 mb-4">
-              <img src="/assets/logo/MADKID_PTS_LOGO.png" alt="Palawan Tattoo Studio" className="h-12 w-auto object-contain" onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }} />
+              <img src="./assets/logo/MADKID_PTS_LOGO.png" alt="Palawan Tattoo Studio" className="h-12 w-auto object-contain" onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }} />
             </div>
             <p className="text-[#A6A6A6] text-sm leading-relaxed mb-4">
               Premium tattoo artistry in the heart of Puerto Princesa City, Palawan. Custom tattoos, body piercing, and more since 2020.
