@@ -1,0 +1,37 @@
+[
+  {
+    "id": "permanent-tattoo",
+    "icon": "Zap",
+    "title": "Permanent Tattoo",
+    "description": "Custom permanent tattoos crafted with precision and artistry. From small minimalist pieces to full sleeves, our DOH-certified artists bring your vision to life with world-class technique and premium-grade inks.",
+    "features": ["Custom Designs", "All Styles", "DOH Certified Artists", "Premium Inks"]
+  },
+  {
+    "id": "body-piercing",
+    "icon": "Circle",
+    "title": "Body Piercing",
+    "description": "Professional body piercing performed by our DOH-certified piercers using only sterile, high-quality jewelry and equipment. Safety and precision are our top priorities in every piercing procedure.",
+    "features": ["DOH Certified Piercers", "Sterile Equipment", "Premium Jewelry", "All Placements"]
+  },
+  {
+    "id": "permanent-makeup",
+    "icon": "Sparkles",
+    "title": "Permanent Make-Up",
+    "description": "Enhance your natural beauty with semi-permanent cosmetic tattoo artistry. Our skilled artists specialize in microblading, lip blush, and eyeliner to give you effortless, long-lasting beauty.",
+    "features": ["Microblading", "Lip Blush", "Eyeliner", "Natural Results"]
+  },
+  {
+    "id": "tattoo-removal",
+    "icon": "RefreshCw",
+    "title": "Tattoo Removal",
+    "description": "Safe and effective tattoo removal services using modern techniques. Whether you're looking to fade a tattoo for a cover-up or completely remove an old piece, our professionals provide expert care throughout the process.",
+    "features": ["Safe Techniques", "Gradual Fading", "Cover-Up Prep", "Professional Care"]
+  },
+  {
+    "id": "henna-tattoo",
+    "icon": "Leaf",
+    "title": "Henna Tattoo",
+    "description": "Beautiful, temporary henna tattoos using natural henna paste. Perfect for events, special occasions, or those who want to experience the art of tattooing before committing to a permanent piece.",
+    "features": ["All-Natural Henna", "Custom Designs", "Events & Occasions", "Temporary Art"]
+  }
+]

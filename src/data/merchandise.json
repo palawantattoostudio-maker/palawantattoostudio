@@ -1,0 +1,66 @@
+[
+  {
+    "id": "shirt-01",
+    "name": "",
+    "description": "",
+    "price": "",
+    "front": "/assets/merchandise/shirt-01/front.jpg",
+    "back": "/assets/merchandise/shirt-01/back.png"
+  },
+  {
+    "id": "shirt-02",
+    "name": "",
+    "description": "",
+    "price": "",
+    "front": "/assets/merchandise/shirt-02/front.jpg",
+    "back": "/assets/merchandise/shirt-02/back.png"
+  },
+  {
+    "id": "shirt-03",
+    "name": "",
+    "description": "",
+    "price": "",
+    "front": "/assets/merchandise/shirt-03/front.jpg",
+    "back": "/assets/merchandise/shirt-03/back.png"
+  },
+  {
+    "id": "shirt-04",
+    "name": "",
+    "description": "",
+    "price": "",
+    "front": "/assets/merchandise/shirt-04/front.jpg",
+    "back": "/assets/merchandise/shirt-04/back.png"
+  },
+  {
+    "id": "shirt-05",
+    "name": "",
+    "description": "",
+    "price": "",
+    "front": "/assets/merchandise/shirt-05/front.jpg",
+    "back": "/assets/merchandise/shirt-05/back.png"
+  },
+  {
+    "id": "shirt-06",
+    "name": "",
+    "description": "",
+    "price": "",
+    "front": "/assets/merchandise/shirt-06/front.jpg",
+    "back": "/assets/merchandise/shirt-06/back.png"
+  },
+  {
+    "id": "shirt-07",
+    "name": "",
+    "description": "",
+    "price": "",
+    "front": "/assets/merchandise/shirt-07/front.jpg",
+    "back": "/assets/merchandise/shirt-07/back.png"
+  },
+  {
+    "id": "shirt-08",
+    "name": "",
+    "description": "",
+    "price": "",
+    "front": "/assets/merchandise/shirt-08/front.jpg",
+    "back": "/assets/merchandise/shirt-08/back.png"
+  }
+]

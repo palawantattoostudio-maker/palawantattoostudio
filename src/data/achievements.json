@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "artist": "Marlon Lim Cinense",
+    "artistId": "marlon-lim-cinense",
+    "competition": "Palawan Tattoo Convention",
+    "year": "2023",
+    "location": "Puerto Princesa City, Palawan",
+    "category": "Black & Grey Realism",
+    "placement": "1st Place",
+    "award": "Best Black & Grey Realism",
+    "image": "/assets/achievements/achievement-01.jpg"
+  },
+  {
+    "id": 2,
+    "artist": "Marlon Lim Cinense",
+    "artistId": "marlon-lim-cinense",
+    "competition": "National Tattoo Arts Convention Philippines",
+    "year": "2022",
+    "location": "Manila, Philippines",
+    "category": "Neo-Traditional",
+    "placement": "2nd Place",
+    "award": "Best Neo-Traditional",
+    "image": "/assets/achievements/achievement-02.jpg"
+  },
+  {
+    "id": 3,
+    "artist": "Marlon Lim Cinense",
+    "artistId": "marlon-lim-cinense",
+    "competition": "Visayas Tattoo Convention",
+    "year": "2022",
+    "location": "Cebu City, Philippines",
+    "category": "Best Overall",
+    "placement": "Winner",
+    "award": "Best of Show",
+    "image": "/assets/achievements/achievement-03.jpg"
+  },
+  {
+    "id": 4,
+    "artist": "Hades Osiris",
+    "artistId": "hades-osiris",
+    "competition": "Palawan Tattoo Convention",
+    "year": "2023",
+    "location": "Puerto Princesa City, Palawan",
+    "category": "Dark Art / Horror",
+    "placement": "1st Place",
+    "award": "Best Dark Art",
+    "image": "/assets/achievements/achievement-04.jpg"
+  },
+  {
+    "id": 5,
+    "artist": "Hades Osiris",
+    "artistId": "hades-osiris",
+    "competition": "Mindanao Tattoo Arts Festival",
+    "year": "2022",
+    "location": "Davao City, Philippines",
+    "category": "Neo-Traditional",
+    "placement": "3rd Place",
+    "award": "Best Neo-Traditional",
+    "image": "/assets/achievements/achievement-05.jpg"
+  },
+  {
+    "id": 6,
+    "artist": "Duke",
+    "artistId": "duke",
+    "competition": "Palawan Tattoo Convention",
+    "year": "2023",
+    "location": "Puerto Princesa City, Palawan",
+    "category": "Tribal & Blackwork",
+    "placement": "1st Place",
+    "award": "Best Tribal / Blackwork",
+    "image": "/assets/achievements/achievement-06.jpg"
+  },
+  {
+    "id": 7,
+    "artist": "Duke",
+    "artistId": "duke",
+    "competition": "International Tattoo Arts Convention",
+    "year": "2022",
+    "location": "Singapore",
+    "category": "Polynesian Style",
+    "placement": "Finalist",
+    "award": "International Finalist — Polynesian",
+    "image": "/assets/achievements/achievement-07.jpg"
+  }
+]
