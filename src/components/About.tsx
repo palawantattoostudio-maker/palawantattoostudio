@@ -4,9 +4,9 @@ import SectionHeader from './ui/SectionHeader';
 import FallbackImage from './ui/FallbackImage';
 
 const studioImages = [
-  { src: '/assets/studio/studio-01.jpg', label: 'Studio Interior' },
-  { src: '/assets/studio/studio-02.jpg', label: 'Workstation' },
-  { src: '/assets/studio/studio-03.jpg', label: 'Studio Space' },
+  { src: './assets/studio/studio-01.jpg', label: 'Studio Interior' },
+  { src: './assets/studio/studio-02.jpg', label: 'Workstation' },
+  { src: './assets/studio/studio-03.jpg', label: 'Studio Space' },
 ];
 
 const stats = [
