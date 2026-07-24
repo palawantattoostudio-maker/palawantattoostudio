@@ -11,7 +11,7 @@ export default function Hero() {
       id="home"
       className="relative min-h-screen flex items-center overflow-hidden"
       style={{
-        backgroundImage: 'url(bg.png)',
+        backgroundImage: 'url(./bg.png)',
         backgroundSize: 'cover',
         backgroundPosition: 'center right',
         backgroundRepeat: 'no-repeat',
