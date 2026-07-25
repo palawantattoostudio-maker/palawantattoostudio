@@ -2,19 +2,19 @@
   {
     "id": 1,
     "name": "Partner 01",
-    "logo": "/assets/partners/partner-01.png",
+    "logo": "assets/partners/partner-01.png",
     "website": ""
   },
   {
     "id": 2,
     "name": "Partner 02",
-    "logo": "/assets/partners/partner-02.png",
+    "logo": "assets/partners/partner-02.png",
     "website": ""
   },
   {
     "id": 3,
     "name": "Partner 03",
-    "logo": "/assets/partners/partner-03.png",
+    "logo": "assets/partners/partner-03.png",
     "website": ""
   }
   
