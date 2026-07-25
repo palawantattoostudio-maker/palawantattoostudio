@@ -35,7 +35,7 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto px-4 md:px-8 flex items-center justify-between">
           {/* Logo */}
           <a href="#home" onClick={(e) => { e.preventDefault(); handleNav('#home'); }} className="flex items-center gap-3">
-            <img src="/assets/logo/MADKID_PTS_LOGO.png" alt="Palawan Tattoo Studio" className="h-10 md:h-12 w-auto object-contain" onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }} />
+            <img src="./assets/logo/MADKID_PTS_LOGO.png" alt="Palawan Tattoo Studio" className="h-10 md:h-12 w-auto object-contain" onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }} />
             <span className="font-display text-lg md:text-xl tracking-widest text-white hidden sm:block">
               PALAWAN <span className="text-gold">TATTOO</span> STUDIO
             </span>
