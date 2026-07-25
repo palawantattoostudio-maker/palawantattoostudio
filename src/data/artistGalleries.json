@@ -1,15 +1,15 @@
 {
   "marlon-lim-cinense": [
-    { "image": "/assets/artist-galleries/marlon-lim-cinense/tattoo-01.jpg", "title": "Tattoo Work 01" },
-    { "image": "/assets/artist-galleries/marlon-lim-cinense/tattoo-02.jpg", "title": "Tattoo Work 02" },
-    { "image": "/assets/artist-galleries/marlon-lim-cinense/tattoo-03.jpg", "title": "Tattoo Work 03" },
-    { "image": "/assets/artist-galleries/marlon-lim-cinense/tattoo-04.jpg", "title": "Tattoo Work 04" },
-    { "image": "/assets/artist-galleries/marlon-lim-cinense/tattoo-05.jpg", "title": "Tattoo Work 05" },
-    { "image": "/assets/artist-galleries/marlon-lim-cinense/tattoo-06.jpg", "title": "Tattoo Work 06" },
-    { "image": "/assets/artist-galleries/marlon-lim-cinense/tattoo-07.jpg", "title": "Tattoo Work 07" },
-    { "image": "/assets/artist-galleries/marlon-lim-cinense/tattoo-08.jpg", "title": "Tattoo Work 08" },
-    { "image": "/assets/artist-galleries/marlon-lim-cinense/tattoo-09.jpg", "title": "Tattoo Work 09" },
-    { "image": "/assets/artist-galleries/marlon-lim-cinense/tattoo-10.jpg", "title": "Tattoo Work 10" }
+    { "image": "assets/artist-galleries/marlon-lim-cinense/tattoo-01.jpg", "title": "Tattoo Work 01" },
+    { "image": "assets/artist-galleries/marlon-lim-cinense/tattoo-02.jpg", "title": "Tattoo Work 02" },
+    { "image": "assets/artist-galleries/marlon-lim-cinense/tattoo-03.jpg", "title": "Tattoo Work 03" },
+    { "image": "assets/artist-galleries/marlon-lim-cinense/tattoo-04.jpg", "title": "Tattoo Work 04" },
+    { "image": "assets/artist-galleries/marlon-lim-cinense/tattoo-05.jpg", "title": "Tattoo Work 05" },
+    { "image": "assets/artist-galleries/marlon-lim-cinense/tattoo-06.jpg", "title": "Tattoo Work 06" },
+    { "image": "assets/artist-galleries/marlon-lim-cinense/tattoo-07.jpg", "title": "Tattoo Work 07" },
+    { "image": "assets/artist-galleries/marlon-lim-cinense/tattoo-08.jpg", "title": "Tattoo Work 08" },
+    { "image": "assets/artist-galleries/marlon-lim-cinense/tattoo-09.jpg", "title": "Tattoo Work 09" },
+    { "image": "assets/artist-galleries/marlon-lim-cinense/tattoo-10.jpg", "title": "Tattoo Work 10" }
   ],
   "arlong-zapanta": [
     { "image": "/assets/artist-galleries/arlong-zapanta/tattoo-01.jpg", "title": "Tattoo Work 01" },
