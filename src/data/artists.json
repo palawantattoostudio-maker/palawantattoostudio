@@ -6,7 +6,7 @@
     "specialty": "Colored Realism, Black & Grey Realism, Neotrad",
     "bio": "Co-founder and head artist of Palawan Tattoo Studio, Marlon Lim Cinense is a DOH-certified tattoo artist whose mastery spans black & grey realism, traditional, and neo-traditional styles. With years of competition experience both locally and internationally, Marlon has established himself as one of Palawan's most decorated and respected tattoo artists.",
     "achievements": ["Multiple Local & International Tattoo Competition Winner", "DOH Certified Tattoo Artist", "Co-Founder of Palawan Tattoo Studio"],
-    "profile": "assets/artists/marlon-lim-cinense/profile.jpg",
+    "profile": "./assets/artists/marlon-lim-cinense/profile.jpg",
     "isFounder": true,
     "social": { "facebook": "", "instagram": "" }
   },
@@ -17,7 +17,7 @@
     "specialty": "Minimalist Colored, Fine Line",
     "bio": "Co-founder of Palawan Tattoo Studio and a seasoned tattoo artist, Arlong Zapanta brings exceptional skill in realism, color portraits, and Japanese-style tattooing. His creative vision and technical precision have helped shape the studio's identity and reputation for world-class artistry.",
     "achievements": ["Tattoo Competition Award Winner", "DOH Certified Tattoo Artist", "Co-Founder of Palawan Tattoo Studio"],
-    "profile": "assets/artists/arlong-zapanta/profile.jpg",
+    "profile": "./assets/artists/arlong-zapanta/profile.jpg",
     "isFounder": true,
     "social": { "facebook": "", "instagram": "" }
   },
@@ -28,7 +28,7 @@
     "specialty": "Tribal Polynesian, Pilipino Tribal, Fine Line ",
     "bio": "Jemuel Ferrer is a versatile and detail-oriented tattoo artist specializing in geometric patterns, dotwork, and fine line tattoos. His precise technique and artistic sensibility make him a sought-after artist for intricate and minimalist designs.",
     "achievements": ["Palawan Tattoo Studio Resident Artist", "Specialized in Geometric & Dotwork"],
-    "profile": "assets/artists/jemuel-ferrer/profile.jpg",
+    "profile": "./assets/artists/jemuel-ferrer/profile.jpg",
     "isFounder": false,
     "social": { "facebook": "", "instagram": "" }
   },
@@ -39,7 +39,7 @@
     "specialty": "Fine line, Minimalist black and Grey",
     "bio": "Bryan Cinense is a talented tattoo artist with a strong command of black & grey work, lettering styles, and old school tattooing. His bold lines and clean shading have earned him a loyal clientele who appreciate timeless tattoo aesthetics.",
     "achievements": ["Palawan Tattoo Studio Resident Artist", "Specializes in Black & Grey & Lettering"],
-    "profile": "assets/artists/bryan-cinense/profile.jpg",
+    "profile": "./assets/artists/bryan-cinense/profile.jpg",
     "isFounder": false,
     "social": { "facebook": "", "instagram": "" }
   },
@@ -50,7 +50,7 @@
     "specialty": "Black & Grey Realism, Colored Realism",
     "bio": "Duke is a master of tribal, blackwork, and Polynesian tattoo traditions. His deep understanding of cultural motifs and bold blackwork techniques create powerful, statement tattoos that honor ancient art forms while maintaining a modern edge.",
     "achievements": ["Tattoo Competition Award Winner", "Palawan Tattoo Studio Resident Artist", "Specialized in Tribal & Polynesian"],
-    "profile": "assets/artists/duke/profile.jpg",
+    "profile": "./assets/artists/duke/profile.jpg",
     "isFounder": false,
     "social": { "facebook": "", "instagram": "" }
   },
@@ -61,7 +61,7 @@
     "specialty": "Horror, Dark Art, Neo-Traditional",
     "bio": "Hades Osiris brings a dark, cinematic edge to tattooing with a specialty in horror-themed art, dark realism, and neo-traditional designs. His unique artistic vision and dramatic compositions have made him one of the most distinctive voices in Palawan's tattoo scene.",
     "achievements": ["Tattoo Competition Award Winner", "Palawan Tattoo Studio Resident Artist", "Specialized in Dark Art & Horror"],
-    "profile": "assets/artists/hades-osiris/profile.jpg",
+    "profile": "./assets/artists/hades-osiris/profile.jpg",
     "isFounder": false,
     "social": { "facebook": "", "instagram": "" }
   },
@@ -72,7 +72,7 @@
     "specialty": "Body Piercing, Permanent Make-Up",
     "bio": "Alyssa Grace Cinense is a multi-talented artist specializing in watercolor tattoos, delicate florals, and fine line work, as well as DOH-certified body piercing. Her soft, painterly approach and meticulous attention to detail bring a unique feminine elegance to the studio's artistic portfolio.",
     "achievements": ["DOH Certified Tattoo Artist & Piercer", "Palawan Tattoo Studio Resident Artist", "Specialized in Watercolor & Fine Line"],
-    "profile": "assets/artists/alyssa-grace-cinense/profile.jpg",
+    "profile": "./assets/artists/alyssa-grace-cinense/profile.jpg",
     "isFounder": false,
     "social": { "facebook": "", "instagram": "" }
   }
