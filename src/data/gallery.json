@@ -1,12 +1,12 @@
 [
   { "id": 1, "image": "/assets/gallery/gallery-01.jpg", "title": "Featured Tattoo Work", "category": "Featured Work" },
-  { "id": 2, "image": "/assets/gallery/gallery-02.jpg", "title": "Studio Portfolio", "category": "Black & Grey" },
-  { "id": 3, "image": "/assets/gallery/gallery-03.jpg", "title": "Custom Design", "category": "Color" },
-  { "id": 4, "image": "/assets/gallery/gallery-04.jpg", "title": "Realism Work", "category": "Realism" },
-  { "id": 5, "image": "/assets/gallery/gallery-05.jpg", "title": "Traditional Piece", "category": "Traditional" },
-  { "id": 6, "image": "/assets/gallery/gallery-06.jpg", "title": "Geometric Art", "category": "Geometric" },
-  { "id": 7, "image": "/assets/gallery/gallery-07.jpg", "title": "Fine Line Work", "category": "Fine Line" },
-  { "id": 8, "image": "/assets/gallery/gallery-08.jpg", "title": "Tribal Design", "category": "Tribal" },
-  { "id": 9, "image": "/assets/gallery/gallery-09.jpg", "title": "Japanese Style", "category": "Japanese" },
-  { "id": 10, "image": "/assets/gallery/gallery-10.jpg", "title": "Neo-Traditional", "category": "Neo-Traditional" }
+  { "id": 2, "image": "/assets/gallery/gallery-02.jpg", "title": "Featured Tattoo Work", "category": "Black & Grey" },
+  { "id": 3, "image": "/assets/gallery/gallery-03.jpg", "title": "Featured Tattoo Work", "category": "Color" },
+  { "id": 4, "image": "/assets/gallery/gallery-04.jpg", "title": "Featured Tattoo Work", "category": "Realism" },
+  { "id": 5, "image": "/assets/gallery/gallery-05.jpg", "title": "Featured Tattoo Work", "category": "Traditional" },
+  { "id": 6, "image": "/assets/gallery/gallery-06.jpg", "title": "Featured Tattoo Work", "category": "Geometric" },
+  { "id": 7, "image": "/assets/gallery/gallery-07.jpg", "title": "Featured Tattoo Work", "category": "Fine Line" },
+  { "id": 8, "image": "/assets/gallery/gallery-08.jpg", "title": "TFeatured Tattoo Work", "category": "Tribal" },
+  { "id": 9, "image": "/assets/gallery/gallery-09.jpg", "title": "Featured Tattoo Work", "category": "Japanese" },
+  { "id": 10, "image": "/assets/gallery/gallery-10.jpg", "title": "Featured Tattoo Workl", "category": "Neo-Traditional" }
 ]
