@@ -6,7 +6,7 @@ const contactInfo = [
   { icon: Phone, label: 'Mobile', value: '(+63) 929 889 5381', href: 'tel:+639298895381' },
   { icon: MessageCircle, label: 'Viber / WhatsApp', value: '(+63) 929 889 5381', href: 'viber://chat?number=%2B639298895381' },
   { icon: Mail, label: 'Email', value: 'palajuantattoostudio@gmail.com', href: 'mailto:palajuantattoostudio@gmail.com' },
-  { icon: MapPin, label: 'Address', value: '33-C Roxas Street (Baywalk Entrance), Bgy. San Isidro (Seaside), Puerto Princesa City', href: 'https://maps.google.com/?q=33-C+Roxas+Street+Puerto+Princesa+Palawan' },
+  { icon: MapPin, label: 'Address', value: '33-C Roxas Street (Baywalk Entrance), Bgy. San Isidro (Seaside), Puerto Princesa City', href: 'https://maps.app.goo.gl/5g4n2ERXwoPRHMp26' },
 ];
 
 const socials = [
