@@ -85,10 +85,15 @@ export default function Contact() {
           >
             <iframe
               title="Palawan Tattoo Studio Location"
-              src="https://maps.app.goo.gl/5g4n2ERXwoPRHMp26"
-              className="w-full h-full min-h-[400px] grayscale contrast-125"
-              style={{ border: 0, filter: 'invert(0.9) hue-rotate(180deg) brightness(0.8)' }}
-              loading="lazy"
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3932.27288599057!2d118.73066997502778!3d9.742936690349804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33b563eeb1970c97%3A0x3844a9a575a11a72!2sPalawan%20Tattoo%20Studio!5e0!3m2!1sen!2sph!4v1785156758488!5m2!1sen!2sph"
+  className="w-full h-full min-h-[400px] grayscale contrast-125"
+  style={{
+    border: 0,
+    filter: 'invert(0.9) hue-rotate(180deg) brightness(0.8)',
+  }}
+  loading="lazy"
+  allowFullScreen
+  referrerPolicy="strict-origin-when-cross-origin"
             />
             <div className="absolute bottom-4 left-4 right-4 bg-studio-black/90 backdrop-blur-md p-4 border border-gold/30 rounded-sm">
               <div className="flex items-center gap-2 mb-1">
