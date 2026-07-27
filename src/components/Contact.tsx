@@ -85,7 +85,7 @@ export default function Contact() {
           >
             <iframe
               title="Palawan Tattoo Studio Location"
-              src="https://www.google.com/maps?q=Puerto+Princesa+Baywalk+Roxas+Street+Palawan&output=embed"
+              src="https://maps.app.goo.gl/5g4n2ERXwoPRHMp26"
               className="w-full h-full min-h-[400px] grayscale contrast-125"
               style={{ border: 0, filter: 'invert(0.9) hue-rotate(180deg) brightness(0.8)' }}
               loading="lazy"
