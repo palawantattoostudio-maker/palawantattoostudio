@@ -10,8 +10,8 @@ const contactInfo = [
 ];
 
 const socials = [
-  { icon: Facebook, label: 'Facebook', value: 'Palawan Tattoo Studio', href: 'https://facebook.com' },
-  { icon: Instagram, label: 'Instagram', value: 'palawantattoostudioofficial', href: 'https://instagram.com' },
+  { icon: Facebook, label: 'Facebook', value: 'Palawan Tattoo Studio', href: 'https://www.facebook.com/PalawanTattooStudio?rdid=90SE1z2np0uTIkgB&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F17bv3LiLGZ%2F#' },
+  { icon: Instagram, label: 'Instagram', value: 'palawantattoostudioofficial', href: 'https://www.instagram.com/palawantattoostudioofficial?igsh=OXE0aDJyOGpjNWRz' },
   { icon: MessageCircle, label: 'TikTok', value: '@palawantattoostudio', href: 'https://tiktok.com' },
 ];
 
@@ -100,7 +100,8 @@ export default function Contact() {
                 <MapPin size={16} className="text-gold" />
                 <p className="text-gold text-xs font-display tracking-widest">PALAWAN TATTOO STUDIO</p>
               </div>
-              <p className="text-[#A6A6A6] text-xs">33-C Roxas Street, Baywalk Entrance, Puerto Princesa City</p>
+              <p className="text-[#A6A6A6] text-xs">Palawan Tattoo Studio
+Roxas Street Baywalk Entrance, Puerto Princesa City, 5300 Palawan</p>
             </div>
           </motion.div>
         </div>
