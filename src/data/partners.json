@@ -16,6 +16,11 @@
     "name": "Partner 03",
     "logo": "assets/partners/partner-03.png",
     "website": ""
+  },
+  {
+    "id": 4,
+    "name": "Partner 03",
+    "logo": "assets/logo/MADKID_PTS_LOGO.png",
+    "website": ""
   }
-  
 ]
