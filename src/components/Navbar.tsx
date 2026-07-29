@@ -114,10 +114,10 @@ export default function Navbar() {
                 ))}
               </ul>
               <div className="flex items-center gap-4 mt-8">
-                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full border border-[#2a2a2a] text-[#A6A6A6] hover:text-gold hover:border-gold transition-colors">
+                <a href="https://www.facebook.com/PalawanTattooStudio?rdid=90SE1z2np0uTIkgB&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F17bv3LiLGZ%2F#" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full border border-[#2a2a2a] text-[#A6A6A6] hover:text-gold hover:border-gold transition-colors">
                   <Facebook size={20} />
                 </a>
-                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full border border-[#2a2a2a] text-[#A6A6A6] hover:text-gold hover:border-gold transition-colors">
+                <a href="https://www.instagram.com/palawantattoostudioofficial?igsh=OXE0aDJyOGpjNWRz" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full border border-[#2a2a2a] text-[#A6A6A6] hover:text-gold hover:border-gold transition-colors">
                   <Instagram size={20} />
                 </a>
               </div>

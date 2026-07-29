@@ -4,7 +4,7 @@ import SectionHeader from './ui/SectionHeader';
 
 const contactInfo = [
   { icon: Phone, label: 'Mobile', value: '(+63) 929 889 5381', href: 'tel:+639298895381' },
-  { icon: MessageCircle, label: 'Viber / WhatsApp', value: '(+63) 929 889 5381', href: 'viber://chat?number=%2B639298895381' },
+  { icon: MessageCircle, label: 'Messenger', href: 'https://m.me/PalawanTattooStudio' },
   { icon: Mail, label: 'Email', value: 'palajuantattoostudio@gmail.com', href: 'mailto:palajuantattoostudio@gmail.com' },
   { icon: MapPin, label: 'Address', value: '33-C Roxas Street (Baywalk Entrance), Bgy. San Isidro (Seaside), Puerto Princesa City', href: 'https://maps.app.goo.gl/5g4n2ERXwoPRHMp26' },
 ];
@@ -12,7 +12,7 @@ const contactInfo = [
 const socials = [
   { icon: Facebook, label: 'Facebook', value: 'Palawan Tattoo Studio', href: 'https://www.facebook.com/PalawanTattooStudio?rdid=90SE1z2np0uTIkgB&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F17bv3LiLGZ%2F#' },
   { icon: Instagram, label: 'Instagram', value: 'palawantattoostudioofficial', href: 'https://www.instagram.com/palawantattoostudioofficial?igsh=OXE0aDJyOGpjNWRz' },
-  { icon: MessageCircle, label: 'TikTok', value: '@palawantattoostudio', href: 'https://tiktok.com' },
+  { icon: MessageCircle, label: 'TikTok', value: '@palawantattoostudio', href: 'https://www.tiktok.com/@palawantattoostudio?_r=1&_t=ZS-98PmDEjTbKz' },
 ];
 
 export default function Contact() {

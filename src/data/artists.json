@@ -4,7 +4,7 @@
     "name": "Marlon Lim Cinense",
     "role": "Founder & Head Artist",
     "specialty": "Colored Realism, Black & Grey Realism, Neotrad",
-    "bio": "Co-founder and head artist of Palawan Tattoo Studio, Marlon Lim Cinense is a DOH-certified tattoo artist whose mastery spans black & grey realism, traditional, and neo-traditional styles. With years of competition experience both locally and internationally, Marlon has established himself as one of Palawan's most decorated and respected tattoo artists.",
+    "bio": "Founder and head artist of Palawan Tattoo Studio, Marlon Lim Cinense is a DOH-certified tattoo artist whose mastery spans black & grey realism, traditional, and neo-traditional styles. With years of competition experience both locally and internationally, Marlon has established himself as one of Palawan's most decorated and respected tattoo artists.",
     "achievements": ["Multiple Local & International Tattoo Competition Winner", "DOH Certified Tattoo Artist", "Co-Founder of Palawan Tattoo Studio"],
     "profile": "./assets/artists/marlon-lim-cinense/profile.jpg",
     "isFounder": true,
@@ -13,7 +13,7 @@
   {
     "id": "arlong-zapanta",
     "name": "Arlong Zapanta",
-    "role": "Founder & Senior Artist",
+    "role": "Co-founder & Senior Artist",
     "specialty": "Minimalist Colored, Fine Line",
     "bio": "Co-founder of Palawan Tattoo Studio and a seasoned tattoo artist, Arlong Zapanta brings exceptional skill in realism, color portraits, and Japanese-style tattooing. His creative vision and technical precision have helped shape the studio's identity and reputation for world-class artistry.",
     "achievements": ["Tattoo Competition Award Winner", "DOH Certified Tattoo Artist", "Co-Founder of Palawan Tattoo Studio"],
