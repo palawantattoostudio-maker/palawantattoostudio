@@ -4,7 +4,7 @@ import SectionHeader from './ui/SectionHeader';
 
 const contactInfo = [
   { icon: Phone, label: 'Mobile', value: '(+63) 929 889 5381', href: 'tel:+639298895381' },
-  { icon: MessageCircle, label: 'Messenger', href: 'https://m.me/PalawanTattooStudio' },
+  { icon: MessageCircle, label: 'Messenger', value : 'Palawan Tattoo Studio', href: 'https://m.me/PalawanTattooStudio' },
   { icon: Mail, label: 'Email', value: 'palajuantattoostudio@gmail.com', href: 'mailto:palajuantattoostudio@gmail.com' },
   { icon: MapPin, label: 'Address', value: '33-C Roxas Street (Baywalk Entrance), Bgy. San Isidro (Seaside), Puerto Princesa City', href: 'https://maps.app.goo.gl/5g4n2ERXwoPRHMp26' },
 ];
