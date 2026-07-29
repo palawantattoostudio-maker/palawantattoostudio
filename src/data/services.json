@@ -1,37 +1,72 @@
 [
   {
     "id": "permanent-tattoo",
-    "icon": "Zap",
+    "icon": "/assets/icon/icon1.png",
+    "hoverIcon": "/assets/icon/icon1hover.png",
     "title": "Permanent Tattoo",
-    "description": "Custom permanent tattoos crafted with precision and artistry. From small minimalist pieces to full sleeves, our DOH-certified artists bring your vision to life with world-class technique and premium-grade inks.",
-    "features": ["Custom Designs", "All Styles", "DOH Certified Artists", "Premium Inks"]
+    "description": "Custom permanent tattoos created with precision, creativity, and professional craftsmanship. Whether you're looking for a small minimalist design or a large-scale custom masterpiece, our DOH-certified tattoo artists are committed to bringing your ideas to life with exceptional attention to detail.",
+    "features": [
+      "Custom Designs",
+      "Versatile Tattoo Styles",
+      "DOH-Certified Artists",
+      "Premium Inks",
+      "Sterile Equipment"
+    ]
   },
   {
     "id": "body-piercing",
-    "icon": "Circle",
+    "icon": "/assets/icon/icon3.png",
+    "hoverIcon": "/assets/icon/icon3hover.png",
     "title": "Body Piercing",
-    "description": "Professional body piercing performed by our DOH-certified piercers using only sterile, high-quality jewelry and equipment. Safety and precision are our top priorities in every piercing procedure.",
-    "features": ["DOH Certified Piercers", "Sterile Equipment", "Premium Jewelry", "All Placements"]
-  },
-  {
-    "id": "permanent-makeup",
-    "icon": "Sparkles",
-    "title": "Permanent Make-Up",
-    "description": "Enhance your natural beauty with semi-permanent cosmetic tattoo artistry. Our skilled artists specialize in microblading, lip blush, and eyeliner to give you effortless, long-lasting beauty.",
-    "features": ["Microblading", "Lip Blush", "Eyeliner", "Natural Results"]
+    "description": "Professional body piercing performed by our fully trained, highly experienced, and DOH-certified piercers using sterile equipment and premium-grade titanium jewelry.",
+    "features": [
+      "DOH-Certified Piercers",
+      "Sterilized Equipment",
+      "Premium Titanium Jewelry",
+      "All Piercing Placements",
+      "Extreme Piercing"
+    ]
   },
   {
     "id": "tattoo-removal",
-    "icon": "RefreshCw",
+    "icon": "/assets/icon/icon2.png",
+    "hoverIcon": "/assets/icon/icon2hover.png",
     "title": "Tattoo Removal",
-    "description": "Safe and effective tattoo removal services using modern techniques. Whether you're looking to fade a tattoo for a cover-up or completely remove an old piece, our professionals provide expert care throughout the process.",
-    "features": ["Safe Techniques", "Gradual Fading", "Cover-Up Prep", "Professional Care"]
+    "description": "Safe and effective laser tattoo removal performed using advanced technology and premium-quality equipment to gradually fade unwanted tattoos.",
+    "features": [
+      "Safe Laser Techniques",
+      "Gradual Fading",
+      "Cover-Up Preparation",
+      "Professional Care",
+      "Premium Laser Equipment"
+    ]
+  },
+  {
+    "id": "permanent-makeup",
+    "icon": "/assets/icon/ICON4.png",
+    "hoverIcon": "/assets/icon/ICON4HOVER.png",
+    "title": "Permanent Make-Up",
+    "description": "Enhance your natural beauty with expertly performed permanent cosmetic procedures designed to provide elegant, long-lasting results.",
+    "features": [
+      "Microblading",
+      "Lip Blush",
+      "Eyeliner",
+      "Natural-Looking Results",
+      "Premium Materials"
+    ]
   },
   {
     "id": "henna-tattoo",
-    "icon": "Leaf",
+    "icon": "/assets/icon/ICON5.png",
+    "hoverIcon": "/assets/icon/ICON5HOVER.png",
     "title": "Henna Tattoo",
-    "description": "Beautiful, temporary henna tattoos using natural henna paste. Perfect for events, special occasions, or those who want to experience the art of tattooing before committing to a permanent piece.",
-    "features": ["All-Natural Henna", "Custom Designs", "Events & Occasions", "Temporary Art"]
+    "description": "Beautiful temporary henna tattoos using premium natural henna paste for weddings, festivals, and special occasions.",
+    "features": [
+      "100% Natural Henna",
+      "Custom Designs",
+      "Events & Occasions",
+      "Temporary Body Art",
+      "Professional Application"
+    ]
   }
 ]
