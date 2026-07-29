@@ -108,7 +108,7 @@ export default function Artists({ onArtistSelect }: ArtistsProps) {
 
                   <div className="mb-6">
                     <p className="text-xs font-display tracking-widest text-gold mb-3 flex items-center gap-2">
-                      <Award size={16} /> ACHIEVEMENTS
+                      <Award size={16} /> SPECIALTIES
                     </p>
                     <ul className="space-y-2">
                       {artist.achievements.map((ach, ai) => (
