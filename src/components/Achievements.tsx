@@ -51,52 +51,54 @@ export default function Achievements() {
                 className="bg-studio-card border border-[#1A1A1A] rounded-sm overflow-hidden hover:border-gold/30 transition-colors"
               >
                 <button
-                  onClick={() =>
-                    setExpandedId(isExpanded ? null : item.id)
-                  }
-                  className="w-full flex items-center gap-4 p-5 text-left"
-                >
-                  {/* Trophy Icon */}
-                  <div className="w-12 h-12 flex-shrink-0 flex items-center justify-center border border-gold/30 rounded-sm">
-                    <Trophy
-                      size={22}
-                      className="text-gold"
-                    />
-                  </div>
+  onClick={() =>
+    setExpandedId(isExpanded ? null : item.id)
+  }
+  className="w-full flex items-center gap-4 p-5 text-left"
+>
+  {/* Trophy */}
+  <div className="w-12 h-12 flex-shrink-0 flex items-center justify-center border border-gold/30 rounded-sm">
+    <Trophy
+      size={22}
+      className="text-gold"
+    />
+  </div>
 
-                  {/* Achievement Info */}
-                  <div className="flex-1 min-w-0">
-                    <div className="flex flex-wrap items-center gap-2 mb-1">
-                      <span className="text-gold text-xs font-display tracking-widest">
-                        {item.placement}
-                      </span>
+  {/* Main Info */}
+  <div className="flex-1 min-w-0">
 
-                      <span className="text-[#444]">
-                        •
-                      </span>
+    {/* LOCATION + YEAR */}
+    <div className="flex flex-wrap items-center gap-2 mb-1">
+      <span className="text-gold text-[11px] font-display tracking-[0.18em] uppercase">
+        {item.location}
+      </span>
 
-                      <span className="text-[#A6A6A6] text-xs">
-                        {item.year}
-                      </span>
-                    </div>
+      <span className="text-[#444]">•</span>
 
-                    <h3 className="font-display text-lg text-white tracking-wide">
-                      {item.award}
-                    </h3>
+      <span className="text-[#A6A6A6] text-xs">
+        {item.year}
+      </span>
+    </div>
 
-                    <p className="text-[#A6A6A6] text-xs">
-                      {item.artist} — {item.category}
-                    </p>
-                  </div>
+    {/* EVENT TITLE */}
+    <h3 className="font-display text-lg text-white tracking-wide leading-tight uppercase">
+      {item.competition}
+    </h3>
 
-                  {/* Arrow */}
-                  <ChevronDown
-                    size={20}
-                    className={`text-[#A6A6A6] transition-transform duration-300 ${
-                      isExpanded ? 'rotate-180' : ''
-                    }`}
-                  />
-                </button>
+    {/* ARTIST + CATEGORY */}
+    <p className="text-[#A6A6A6] text-xs mt-1">
+      {item.artist} • {item.category}
+    </p>
+
+  </div>
+
+  <ChevronDown
+    size={20}
+    className={`text-[#A6A6A6] transition-transform duration-300 ${
+      isExpanded ? "rotate-180" : ""
+    }`}
+  />
+</button>
 
                 {/* Expanded Content */}
                 <AnimatePresence>
