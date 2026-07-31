@@ -107,24 +107,9 @@ export default function Artists({ onArtistSelect }: ArtistsProps) {
                   <p className="text-[#A6A6A6] text-sm leading-relaxed mb-6">{artist.bio}</p>
 
                   <div className="mb-6">
-                    <button
-  onClick={() => {
-    setSelectedArtist(null);
-
-    setTimeout(() => {
-      document
-        .getElementById("achievements")
-        ?.scrollIntoView({
-          behavior: "smooth",
-          block: "start",
-        });
-    }, 250);
-  }}
-  className="text-xs font-display tracking-widest text-gold mb-3 flex items-center gap-2 hover:text-white transition-colors"
->
-  <Award size={16} />
-  ACHIEVEMENTS
-</button>
+                    <p className="text-xs font-display tracking-widest text-gold mb-3 flex items-center gap-2">
+                      <Award size={16} /> ACHIEVEMENTS
+                    </p>
                     <ul className="space-y-2">
                       {artist.achievements.map((ach, ai) => (
                         <li key={ai} className="text-xs text-[#A6A6A6] flex items-start gap-2">

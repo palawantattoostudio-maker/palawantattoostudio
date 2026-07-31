@@ -12,6 +12,7 @@
     ],
     "profile": "./assets/artists/marlon-lim-cinense/profile.jpg",
     "isFounder": true,
+"isCoFounder": false,
     "social": {
       "facebook": "",
       "instagram": ""
@@ -29,7 +30,8 @@
       "Professional Fine Line Specialist"
     ],
     "profile": "./assets/artists/arlong-zapanta/profile.jpg",
-    "isFounder": true,
+    "isFounder": false,
+"isCoFounder": true,
     "social": {
       "facebook": "",
       "instagram": ""
@@ -48,6 +50,7 @@
     ],
     "profile": "./assets/artists/jemuel-ferrer/profile.jpg",
     "isFounder": false,
+"isCoFounder": false,
     "social": {
       "facebook": "",
       "instagram": ""
@@ -66,6 +69,7 @@
     ],
     "profile": "./assets/artists/bryan-cinense/profile.jpg",
     "isFounder": false,
+"isCoFounder": false,
     "social": {
       "facebook": "",
       "instagram": ""
@@ -84,6 +88,7 @@
     ],
     "profile": "./assets/artists/duke/profile.jpg",
     "isFounder": false,
+"isCoFounder": false,
     "social": {
       "facebook": "",
       "instagram": ""
@@ -101,7 +106,8 @@
       "Black & Grey Realism Specialist"
     ],
     "profile": "./assets/artists/hades-osiris/profile.jpg",
-    "isFounder": false,
+  "isFounder": false,
+"isCoFounder": false,
     "social": {
       "facebook": "",
       "instagram": ""
@@ -119,7 +125,8 @@
       "Advanced Body Piercing Professional"
     ],
     "profile": "./assets/artists/alyssa-grace-cinense/profile.jpg",
-    "isFounder": false,
+"isFounder": false,
+"isCoFounder": false,
     "social": {
       "facebook": "",
       "instagram": ""

@@ -1,6 +1,13 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Trophy, MapPin, Calendar, ChevronDown, Award } from 'lucide-react';
+import {
+  Trophy,
+  MapPin,
+  Calendar,
+  ChevronDown,
+  Award,
+} from 'lucide-react';
+
 import SectionHeader from './ui/SectionHeader';
 import FallbackImage from './ui/FallbackImage';
 import Lightbox from './ui/Lightbox';
@@ -27,6 +34,7 @@ export default function Achievements() {
       <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-gold/5 rounded-full blur-[150px] pointer-events-none" />
 
       <div className="max-w-5xl mx-auto relative">
+
         <SectionHeader
           eyebrow="Awards & Recognition"
           title="OUR"
@@ -35,7 +43,9 @@ export default function Achievements() {
         />
 
         <div className="space-y-4">
+
           {achievements.map((item, i) => {
+
             const isExpanded = expandedId === item.id;
 
             return (
@@ -48,59 +58,81 @@ export default function Achievements() {
                   duration: 0.5,
                   delay: i * 0.05,
                 }}
-                className="bg-studio-card border border-[#1A1A1A] rounded-sm overflow-hidden hover:border-gold/30 transition-colors"
+                className="bg-studio-card border border-[#1A1A1A] rounded-sm overflow-hidden hover:border-gold/40 transition-all duration-300"
               >
+
+                {/* HEADER */}
                 <button
-  onClick={() =>
-    setExpandedId(isExpanded ? null : item.id)
-  }
-  className="w-full flex items-center gap-4 p-5 text-left"
->
-  {/* Trophy */}
-  <div className="w-12 h-12 flex-shrink-0 flex items-center justify-center border border-gold/30 rounded-sm">
-    <Trophy
-      size={22}
-      className="text-gold"
-    />
-  </div>
+                  onClick={() =>
+                    setExpandedId(isExpanded ? null : item.id)
+                  }
+                  className="w-full flex items-center gap-4 p-5 text-left"
+                >
 
-  {/* Main Info */}
-  <div className="flex-1 min-w-0">
+                  {/* Trophy */}
+                  <div className="w-14 h-14 flex-shrink-0 rounded-sm border border-gold/30 bg-black flex items-center justify-center">
+                    <Trophy
+                      size={24}
+                      className="text-gold"
+                    />
+                  </div>
 
-    {/* LOCATION + YEAR */}
-    <div className="flex flex-wrap items-center gap-2 mb-1">
-      <span className="text-gold text-[11px] font-display tracking-[0.18em] uppercase">
-        {item.location}
-      </span>
+                  {/* Main Info */}
+                  <div className="flex-1 min-w-0">
 
-      <span className="text-[#444]">•</span>
+                    {/* Placement + Year */}
+                    <div className="flex items-center flex-wrap gap-2 mb-2">
 
-      <span className="text-[#A6A6A6] text-xs">
-        {item.year}
-      </span>
-    </div>
+                      <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full border border-gold/30 bg-gold/10 text-gold text-[10px] tracking-[0.18em] font-display uppercase">
+                        <Award size={12} />
+                        {item.placement}
+                      </span>
 
-    {/* EVENT TITLE */}
-    <h3 className="font-display text-lg text-white tracking-wide leading-tight uppercase">
-      {item.competition}
-    </h3>
+                      <span className="text-[#444]">
+                        •
+                      </span>
 
-    {/* ARTIST + CATEGORY */}
-    <p className="text-[#A6A6A6] text-xs mt-1">
-      {item.artist} • {item.category}
-    </p>
+                      <span className="text-[#A6A6A6] text-xs">
+                        {item.year}
+                      </span>
 
-  </div>
+                    </div>
 
-  <ChevronDown
-    size={20}
-    className={`text-[#A6A6A6] transition-transform duration-300 ${
-      isExpanded ? "rotate-180" : ""
-    }`}
-  />
-</button>
+                    {/* Competition */}
+                    <h3 className="font-display text-xl uppercase tracking-wide text-white leading-tight">
+                      {item.competition}
+                    </h3>
 
-                {/* Expanded Content */}
+                    {/* Artist */}
+                    <p className="text-gold text-xs mt-1 tracking-wide">
+                      {item.artist}
+                    </p>
+
+                    {/* Category */}
+                    <p className="text-[#B5B5B5] text-xs mt-1">
+                      {item.category}
+                    </p>
+
+                    {/* Location */}
+                    <div className="flex items-center gap-1 mt-2 text-[11px] text-[#777]">
+                      <MapPin
+                        size={11}
+                        className="text-gold"
+                      />
+                      {item.location}
+                    </div>
+
+                  </div>
+
+                  <ChevronDown
+                    size={20}
+                    className={`text-[#999] transition-transform duration-300 ${
+                      isExpanded ? 'rotate-180' : ''
+                    }`}
+                  />
+
+                </button>
+
                 <AnimatePresence>
                   {isExpanded && (
                     <motion.div
@@ -121,41 +153,38 @@ export default function Achievements() {
                       }}
                       className="overflow-hidden"
                     >
-                      <div className="px-5 pb-5 pt-2 border-t border-[#1A1A1A]">
+                      <div className="px-5 pb-5 pt-4 border-t border-[#1A1A1A]">
+                                                {/* Details */}
+                        <div className="grid sm:grid-cols-2 gap-4 mb-5">
 
-                        {/* Competition + Location */}
-                        <div className="grid sm:grid-cols-2 gap-3 mb-4">
-
-                          <div className="flex items-center gap-2 text-xs text-[#A6A6A6]">
+                          <div className="flex items-center gap-2 text-sm text-[#A6A6A6]">
                             <Award
-                              size={14}
+                              size={16}
                               className="text-gold"
                             />
-
-                            <span className="text-white">
-                              {item.competition}
+                            <span>
+                              <span className="text-white font-medium">
+                                {item.placement}
+                              </span>
                             </span>
                           </div>
 
-                          <div className="flex items-center gap-2 text-xs text-[#A6A6A6]">
-                            <MapPin
-                              size={14}
+                          <div className="flex items-center gap-2 text-sm text-[#A6A6A6]">
+                            <Calendar
+                              size={16}
                               className="text-gold"
                             />
+                            {item.year}
+                          </div>
 
+                          <div className="flex items-center gap-2 text-sm text-[#A6A6A6] sm:col-span-2">
+                            <MapPin
+                              size={16}
+                              className="text-gold"
+                            />
                             {item.location}
                           </div>
 
-                        </div>
-
-                        {/* Year */}
-                        <div className="flex items-center gap-2 text-xs text-[#A6A6A6] mb-4">
-                          <Calendar
-                            size={14}
-                            className="text-gold"
-                          />
-
-                          {item.year}
                         </div>
 
                         {/* Achievement Image */}
@@ -170,7 +199,7 @@ export default function Achievements() {
 
                               setLightboxIndex(fullIndex);
                             }}
-                            className="block relative w-full max-w-xs aspect-video rounded-sm overflow-hidden border border-[#1A1A1A] hover:border-gold/40 transition-colors"
+                            className="block relative w-full max-w-md aspect-video rounded-sm overflow-hidden border border-[#1A1A1A] hover:border-gold/40 transition-colors"
                           >
                             <FallbackImage
                               src={item.image}
@@ -178,9 +207,9 @@ export default function Achievements() {
                               className="w-full h-full"
                             />
 
-                            <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity">
-                              <span className="text-gold text-xs tracking-widest uppercase">
-                                View
+                            <div className="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity">
+                              <span className="text-gold text-xs tracking-[0.2em] uppercase">
+                                View Image
                               </span>
                             </div>
                           </button>
@@ -190,15 +219,16 @@ export default function Achievements() {
                     </motion.div>
                   )}
                 </AnimatePresence>
+
               </motion.div>
             );
           })}
 
-          {/* SHOW ALL / SHOW LESS BUTTON */}
-          <div className="flex justify-center pt-6">
+          {/* Show More */}
+          <div className="flex justify-center pt-8">
             <button
               onClick={() => {
-                setShowAll((current) => !current);
+                setShowAll(!showAll);
                 setExpandedId(null);
                 setLightboxIndex(null);
               }}
@@ -209,10 +239,11 @@ export default function Achievements() {
                 : 'SHOW ALL ACHIEVEMENTS'}
             </button>
           </div>
+
         </div>
       </div>
 
-      {/* LIGHTBOX */}
+      {/* Lightbox */}
       {lightboxIndex !== null && (
         <Lightbox
           images={sortedAchievements.map((a) => ({
