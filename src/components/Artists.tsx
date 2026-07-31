@@ -99,7 +99,7 @@ export default function Artists({ onArtistSelect }: ArtistsProps) {
                   </button>
                   {artist.isFounder && (
                     <span className="inline-block text-xs font-display tracking-widest text-gold border border-gold/40 px-3 py-1 mb-3">
-                      CO-FOUNDER
+                      
                     </span>
                   )}
                   <h3 className="font-display text-3xl text-white mb-1">{artist.name}</h3>
@@ -107,9 +107,24 @@ export default function Artists({ onArtistSelect }: ArtistsProps) {
                   <p className="text-[#A6A6A6] text-sm leading-relaxed mb-6">{artist.bio}</p>
 
                   <div className="mb-6">
-                    <p className="text-xs font-display tracking-widest text-gold mb-3 flex items-center gap-2">
-                      <Award size={16} /> ACHIEVEMENTS
-                    </p>
+                    <button
+  onClick={() => {
+    setSelectedArtist(null);
+
+    setTimeout(() => {
+      document
+        .getElementById("achievements")
+        ?.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+        });
+    }, 250);
+  }}
+  className="text-xs font-display tracking-widest text-gold mb-3 flex items-center gap-2 hover:text-white transition-colors"
+>
+  <Award size={16} />
+  ACHIEVEMENTS
+</button>
                     <ul className="space-y-2">
                       {artist.achievements.map((ach, ai) => (
                         <li key={ai} className="text-xs text-[#A6A6A6] flex items-start gap-2">
